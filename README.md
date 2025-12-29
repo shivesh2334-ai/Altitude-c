@@ -1,38 +1,55 @@
-# ⛰️ Mountain Sickness Analysis Application
+# 🏔️ Mountain Altitude Sickness Analyzer
 
-A comprehensive web application for assessing, preventing, diagnosing, and treating acute altitude illness based on the **Wilderness Medical Society Clinical Practice Guidelines 2024**.
+A comprehensive Streamlit web application for assessing, preventing, diagnosing, and treating altitude-related illnesses based on the **Wilderness Medical Society Clinical Practice Guidelines 2024**.
 
-## 🎯 Features
+## 📋 Features
 
-### 1. Risk Assessment
-- Personalized risk calculation based on medical history
-- Altitude and ascent rate analysis
-- Evidence-based prevention recommendations
-- Medication dosing guidelines
+### 1. **Risk Assessment**
+- Personalized altitude illness risk evaluation
+- Considers personal history, medical conditions, and trip parameters
+- Risk categorization (Low, Moderate, High)
+- Visual altitude profile analysis
+- Altitude zone classifications
 
-### 2. Symptom Checker & Diagnosis
-- Interactive Lake Louise AMS Score calculator
-- HACE and HAPE symptom assessment
-- Real-time diagnosis and urgency level
-- Treatment recommendations based on severity
+### 2. **Symptom Checker & Diagnosis**
+- Interactive symptom selection
+- Automated diagnosis based on WMS 2024 criteria
+- Lake Louise Score estimation
+- Oxygen saturation interpretation
+- Emergency warning system
+- Immediate treatment recommendations
 
-### 3. Educational Resources
-- Comprehensive guide to altitude illness types
-- Detailed medication information
-- Altitude categories and effects
-- Quick reference guides for trips
+### 3. **Prevention Plan**
+- Personalized medication recommendations
+- AMS/HACE prophylaxis protocols
+- HAPE prevention for susceptible individuals
+- Gradual ascent strategies
+- Staging and preacclimatization advice
+- Downloadable prevention plans
 
-### 4. Q&A Section
-- 50+ frequently asked questions
-- Searchable knowledge base
+### 4. **Ascent Planner**
+- Day-by-day safe ascent schedule generation
+- Automatic rest day inclusion
+- Visual ascent profile
+- WMS 2024 guideline compliance
+- Downloadable itineraries
+
+### 5. **Knowledge Base**
+- Comprehensive Q&A section
 - Evidence-based answers
-- Links to expert resources
+- Emergency resources
+- International contact information
+- Medical references
 
-## 🚀 Deployment Instructions
+## 🚀 Installation
 
-### Local Development
+### Prerequisites
+- Python 3.8 or higher
+- pip package manager
 
-1. Clone the repository:
+### Local Setup
+
+1. **Clone or download this repository**
 ```bash
-git clone https://github.com/yourusername/mountain-sickness-app.git
-cd mountain-sickness-app
+git clone <your-repository-url>
+cd altitude-sickness-analyzer
