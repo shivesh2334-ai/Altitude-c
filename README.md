@@ -1,55 +1,35 @@
-# 🏔️ Mountain Altitude Sickness Analyzer
+# Safe2Peak — Altitude Sickness Risk Analyzer
 
-A comprehensive Streamlit web application for assessing, preventing, diagnosing, and treating altitude-related illnesses based on the **Wilderness Medical Society Clinical Practice Guidelines 2024**.
+Safe2Peak is a responsive educational decision-support app for altitude trip planning and symptom screening. This React/Vite edition combines the clinical logic of the original Streamlit application with the visual system of the Safe2peak UI concept.
 
-## 📋 Features
+## Features
 
-### 1. **Risk Assessment**
-- Personalized altitude illness risk evaluation
-- Considers personal history, medical conditions, and trip parameters
-- Risk categorization (Low, Moderate, High)
-- Visual altitude profile analysis
-- Altitude zone classifications
+- Altitude categories from low altitude through the death zone
+- Personal history and ascent-rate risk factors
+- Simplified four-domain AMS symptom screen
+- Explicit HACE/HAPE red-flag screening and emergency descent advice
+- Responsive, mobile-first dashboard
+- Conservative day-by-day sleeping-altitude and rest-day planner
+- Pre-departure, medication-safety and field-action guidance
+- No client-side API keys, accounts, tracking, or simulated “live” weather
 
-### 2. **Symptom Checker & Diagnosis**
-- Interactive symptom selection
-- Automated diagnosis based on WMS 2024 criteria
-- Lake Louise Score estimation
-- Oxygen saturation interpretation
-- Emergency warning system
-- Immediate treatment recommendations
+## Run locally
 
-### 3. **Prevention Plan**
-- Personalized medication recommendations
-- AMS/HACE prophylaxis protocols
-- HAPE prevention for susceptible individuals
-- Gradual ascent strategies
-- Staging and preacclimatization advice
-- Downloadable prevention plans
-
-### 4. **Ascent Planner**
-- Day-by-day safe ascent schedule generation
-- Automatic rest day inclusion
-- Visual ascent profile
-- WMS 2024 guideline compliance
-- Downloadable itineraries
-
-### 5. **Knowledge Base**
-- Comprehensive Q&A section
-- Evidence-based answers
-- Emergency resources
-- International contact information
-- Medical references
-
-## 🚀 Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Local Setup
-
-1. **Clone or download this repository**
 ```bash
-git clone <your-repository-url>
-cd altitude-sickness-analyzer
+npm install
+npm run dev
+```
+
+## Verify and build
+
+```bash
+npm run build
+```
+
+## Deploy to Vercel
+
+Import this repository in Vercel. Framework preset, build command, output directory, and SPA fallback are declared in `vercel.json`.
+
+## Safety
+
+This application is educational and is not a diagnostic device. Severe or worsening symptoms require immediate descent and urgent medical/rescue assistance.
