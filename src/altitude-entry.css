@@ -1,0 +1,1 @@
+.altitude-entry{display:grid;grid-template-columns:1fr auto;gap:8px;margin-bottom:5px}.altitude-entry button{border:0;border-radius:12px;padding:0 14px;background:var(--lime);color:#07110f;font-size:.75rem;font-weight:800;cursor:pointer}.altitude-entry input{min-width:0}@media(max-width:480px){.altitude-entry{grid-template-columns:1fr}.altitude-entry button{padding:11px}}
