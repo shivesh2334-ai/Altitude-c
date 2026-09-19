@@ -12,6 +12,11 @@ Safe2Peak is a responsive educational decision-support app for altitude trip pla
 - Conservative day-by-day sleeping-altitude and rest-day planner
 - Pre-departure, medication-safety and field-action guidance
 - No client-side API keys, accounts, tracking, or simulated “live” weather
+- Free, no-key destination lookup using OpenStreetMap Nominatim and Open-Meteo elevation through a serverless API proxy
+
+## Location service
+
+`GET /api/location?q=Leh` returns up to five matching locations with coordinates and elevation. Responses are cached at the edge for one hour. The interface displays required data attribution and sends lookups through the server rather than exposing third-party calls in the browser.
 
 ## Run locally
 
