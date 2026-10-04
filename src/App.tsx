@@ -1,5 +1,6 @@
 import {useMemo,useState} from 'react';
 import {Activity,AlertTriangle,Check,ChevronRight,Download,HeartPulse,MapPin,Mountain,Navigation,Printer,Share2,ShieldAlert,Stethoscope} from 'lucide-react';
+import {Analytics} from '@vercel/analytics/react';
 
 type Risk='Minimal'|'Low'|'Moderate'|'High'|'Very High'|'Extreme';
 type Symptom={id:string;label:string;group:'common'|'respiratory'|'danger'};
@@ -94,5 +95,6 @@ export default function App(){
    </section>
    <section className="disclaimer"><b>Important medical disclaimer</b><p>This tool supports education and structured screening; it does not diagnose illness or replace a clinician, expedition doctor, trained guide, local rescue service, pulse oximetry, or an emergency plan. Symptoms and clinical deterioration matter more than a score. *The displayed four-domain screen is simplified and is not a substitute for a formal Lake Louise assessment.</p></section>
   </main><footer><div className="brand"><span><Mountain/></span><b>SAFE2PEAK</b></div><p>Altitude safety decision support • Easy My Care</p><p>© {new Date().getFullYear()}</p></footer>
+  <Analytics />
  </div>;
 }
